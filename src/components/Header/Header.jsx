@@ -1,6 +1,7 @@
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 import logo from "../../images/logo/ITS.png";
-import { HeadCont, HeadOptions, Phone, LogoLink } from "./Header.styled";
+import { HeadCont, HeadOptions,  LogoLink } from "./Header.styled";
+import AddressList from "../AddressList/AddressList";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
         </LogoLink>
         <HeadOptions>
           <address>
-            <Phone href="tel:+380674455145">+38 (067) 445-51-45</Phone>
+            <AddressList />
           </address>
           <LanguageSwitch />
         </HeadOptions>
