@@ -1,7 +1,8 @@
 {
   "name": "its",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
+  "homepage": "https://Oknehcvotil.github.io/its/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@reduxjs/toolkit": "^1.9.5",
