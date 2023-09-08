@@ -4,7 +4,8 @@ import "./index.css";
 import App from "./components/App";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
-import i18n from "./helpers/translator";
+// eslint-disable-next-line 
+import i18n from "./helpers/translator"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
