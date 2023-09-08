@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <main>
       <HeroSection />
-      {/* <ServicesSection /> */}
+      <ServicesSection />
       <AdvancesSection />
     </main>
   );

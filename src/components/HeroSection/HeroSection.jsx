@@ -2,7 +2,7 @@ import {
   Hero,
   HeroCont,
   Tagline,
-  AboutTitle,
+  // AboutTitle,
   AboutText,
   CompName,
 } from "./HeroSection.styled";
@@ -15,7 +15,7 @@ const HeroSection = () => {
     <Hero>
       <HeroCont>
         <Tagline>CARRY ON CARRY ALL</Tagline>
-        <AboutTitle>{t("aboutTitle")}</AboutTitle>
+        {/* <AboutTitle>{t("aboutTitle")}</AboutTitle> */}
         <AboutText>
           <CompName>{t("companyName")}</CompName>
           {t("aboutText")}

@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 export const AdvSect = styled.section`
-  padding-top: 80px;
+  padding: 40px 0;
 
-  @media (min-width: 1200px) {
-    padding-top: 110px;
+  @media (min-width: 768px) {
+    padding: 80px 0;
   }
 `;
 

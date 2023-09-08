@@ -1,22 +1,47 @@
 import styled from "@emotion/styled";
+import truck from "../../images/truck_L.jpg";
+import truckM from "../../images/truck_M.jpg";
+import truckS from "../../images/truck_M.jpg";
 
 export const Hero = styled.section`
+  text-align: center;
   margin: 0 auto;
-  padding-top: 80px;
+  padding: 60px 10px 20px;
   max-width: 426px;
+  min-height: 400px;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(${truckS});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   @media (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(${truckM});
     max-width: 766px;
   }
 
   @media (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(${truck});
+    padding: 70px 10px 40px;
     max-width: 1158px;
   }
 `;
 
 export const HeroCont = styled.div`
   max-width: 426px;
-  padding: 0 10px;
+  margin: 0 auto;
 
   @media (min-width: 768px) {
     max-width: 766px;
@@ -56,7 +81,6 @@ export const AboutText = styled.p`
   line-height: 1.5;
   letter-spacing: 0.02em;
 `;
-
 
 export const CompName = styled.strong`
   color: var(--secondary-color);

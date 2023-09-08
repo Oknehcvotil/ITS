@@ -1,20 +1,17 @@
-import SvgSelector from "../../helpers/SvgSelector";
 import { useTranslation } from "react-i18next";
 
+import {  ServCont, ServTitle } from "./ServicesSection.styled";
+import ServicesList from "../ServicesList/ServicesList";
+
 const ServicesSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
-      <div>
-        <h2>Послуги</h2>
-        <ul>
-          <li>
-            <SvgSelector id="uaMap" />
-          </li>
-          <li>
-            <SvgSelector id="world" />
-          </li>
-        </ul>
-      </div>
+      <ServCont>
+        <ServTitle>{t("servicesTitle")}</ServTitle>
+        <ServicesList />
+      </ServCont>
     </section>
   );
 };
